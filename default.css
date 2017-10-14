@@ -1,4 +1,43 @@
 body{
     margin: 0;
-    background-color: aliceblue;
+}
+.one{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin: 15px;
+}
+.clear{
+    clear:both;
+}
+.two{
+    float:left;
+    width: 300px;
+    height: 150px;
+    margin: 30px 15px 30px 15px;
+    background-color: blue;
+}
+.three{
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    background-color: green;
+}
+.three h2{
+    text-align: center;
+}
+.four{
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: purple;
+    height: 50px;
+}
+.four1{
+    width:70%;
+}
+.four2{
+    width:20%;
 }
